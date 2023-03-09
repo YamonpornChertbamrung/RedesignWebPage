@@ -53,7 +53,8 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
-    background-color: #fff;
+    
+    /* background-color: #fff; */
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent
 }
@@ -11728,4 +11729,30 @@ fieldset:disabled .btn {
     background-color:rgba(165,165,165,0.2);
 }
 
+.box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background: rgba(165,165,165,0.2);
+}
+
+.box{
+    
+    max-width: 650px;
+    width: 100%;
+    padding: 30px;
+    background: rgba(165,165,165,0.4);
+    border: 20px;
+}
+
+.drag-area{
+    height: 400px;
+    border:6px dashed #e0eafc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 /*# sourceMappingURL=bootstrap.min.css.map */

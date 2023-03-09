@@ -6744,5 +6744,6 @@
 
   return index_umd;
 
+  const dragArea = document.querySelector('.drag-area');
 })));
 //# sourceMappingURL=bootstrap.bundle.js.map
