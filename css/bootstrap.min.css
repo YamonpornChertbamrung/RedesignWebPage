@@ -11723,4 +11723,8 @@ fieldset:disabled .btn {
     background-image: url("https://cdn.discordapp.com/attachments/876025140490698753/1083335301604311070/cta-footer-bg-2048x1151.jpeg");
 }
 
+.color-card{
+    background-color:rgba(165,165,165,0.2);
+}
+
 /*# sourceMappingURL=bootstrap.min.css.map */
