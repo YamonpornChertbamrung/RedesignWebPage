@@ -11723,6 +11723,8 @@ fieldset:disabled .btn {
 
 .background{
     background-image: url("https://cdn.discordapp.com/attachments/876025140490698753/1083335301604311070/cta-footer-bg-2048x1151.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .color-card{
@@ -11789,7 +11791,7 @@ fieldset:disabled .btn {
     margin-left: 10px;
 }
 .textbox {
-    padding-top: 30px;
+    padding-top: 20px;
     padding-left: 30px;
     width: 840px;
     height: 600px;
@@ -11803,7 +11805,7 @@ fieldset:disabled .btn {
 .headtext{
     width: 840px;
     height: 40px;
-    background-color: #DCDCDC;
+    background-color: #a6a6a6;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
 }
@@ -11829,15 +11831,20 @@ fieldset:disabled .btn {
 .circle3{
     width: 20px;
     height: 20px;
-    background-color:#2ac447;
+    background-color:#93F99C;
     border-radius: 50px;
     margin-left: 70px;
     margin-top: 10px;
     position:absolute;
 }
+.gap{
+    width: 20px;
+    height: 50px;
+    margin-top: 30px;
+}
 /* width */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 15px;
   }
   
   /* Track */
@@ -11847,7 +11854,7 @@ fieldset:disabled .btn {
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #888; 
+    background: #bfbfbf; 
   }
   
   /* Handle on hover */
