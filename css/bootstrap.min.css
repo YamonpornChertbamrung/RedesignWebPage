@@ -11788,4 +11788,32 @@ fieldset:disabled .btn {
     left: 20px;
     margin-left: 10px;
 }
+.textbox {
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 840px;
+    height: 600px;
+    background-color: #DCDCDC;
+    overflow: scroll; /* showing scrollbars */
+    overflow-x: hidden;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
 /*# sourceMappingURL=bootstrap.min.css.map */
