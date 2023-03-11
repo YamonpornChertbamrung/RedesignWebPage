@@ -11767,6 +11767,7 @@ fieldset:disabled .btn {
     padding: 30px;
     background: rgba(165, 165, 165, 0.4);
     border: 20px;
+    position: relative;
 }
 
 .drag-area {
