@@ -11747,6 +11747,15 @@ fieldset:disabled .btn {
     border: 20px;
 }
 
+.box2{
+    
+    max-width: 65%;
+    width: 100%;
+    padding: 30px;
+    background: rgba(165,165,165,0.4);
+    border: 20px;
+}
+
 .drag-area{
     height: 400px;
     border:4px dashed #e0eafc;
@@ -11758,5 +11767,25 @@ fieldset:disabled .btn {
 
 .drag-area.active{
     border: 2px solid #084298;
+}
+
+.Demographic_label {
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: #00c5c5;
+    /* font-size: 18px; */
+}
+.Demographic_gender {
+    position: absolute;
+    top: -40px;
+    min-width: 200px;
+    left: 0px;
+    margin-left: 0px;
+}
+.Demographic_age {
+    position: absolute;
+    top: -20px;
+    min-width: 200px;
+    left: 20px;
+    margin-left: 10px;
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
