@@ -11755,4 +11755,8 @@ fieldset:disabled .btn {
     justify-content: center;
     flex-direction: column;
 }
+
+.drag-area.active{
+    border: 2px solid #084298;
+}
 /*# sourceMappingURL=bootstrap.min.css.map */
