@@ -11749,7 +11749,7 @@ fieldset:disabled .btn {
 
 .drag-area{
     height: 400px;
-    border:6px dashed #e0eafc;
+    border:4px dashed #e0eafc;
     display: flex;
     align-items: center;
     justify-content: center;
